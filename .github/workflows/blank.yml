@@ -12,14 +12,17 @@ jobs:
     steps:
       - uses: actions/checkout@master
       
-      - name: ZIP & publish
+      - name: ZIP Data
         uses: TheDoctor0/zip-release@0.7.1
         with:
           type: 'zip'
           path: 'pack/'
-          filename: 'release.zip'
+          filename: 'pack.zip'
        
       - name: Publish Release
-        uses: github-actions-publish/publish-action@v1
+        uses: ridedott/release-me-action@master
         with:
-          tag: 'workflow'
+          disable-changelog: true
+          release-branches: '["master"]'
+          release-assets: |
+            pack.zip

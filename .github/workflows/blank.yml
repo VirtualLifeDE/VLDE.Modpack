@@ -16,6 +16,7 @@ jobs:
         uses: TheDoctor0/zip-release@0.7.1
         with:
           type: 'zip'
+          path: 'pack/'
           filename: 'release.zip'
           
       - name: Upload Release

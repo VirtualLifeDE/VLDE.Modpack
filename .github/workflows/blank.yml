@@ -18,8 +18,10 @@ jobs:
           type: 'zip'
           path: 'pack/'
           filename: 'pack.zip'
-       
-      - name: Publish Release
+             
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        name: Publish Release
         uses: ridedott/release-me-action@master
         with:
           disable-changelog: true

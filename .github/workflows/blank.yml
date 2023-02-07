@@ -18,9 +18,8 @@ jobs:
           type: 'zip'
           path: 'pack/'
           filename: 'release.zip'
-          
-      - name: Upload Release
-        uses: ncipollo/release-action@v1.12.0
+       
+      - name: Publish Release
+        uses: github-actions-publish/publish-action@v1
         with:
-          artifacts: "release.zip"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: 'workflow'

@@ -13,7 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
       
-      - uses: dev-drprasad/delete-tag-and-release@v0.2.0
+      - name: Remove Old Release
+        uses: dev-drprasad/delete-tag-and-release@v0.2.0
         with:
           tag_name: LATEST
         env:

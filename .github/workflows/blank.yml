@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@master
       
       - name: ZIP Data
         uses: TheDoctor0/zip-release@0.7.1
@@ -20,7 +21,7 @@ jobs:
           path: 'pack/'
           filename: 'pack.zip'
           
-      - name: Delete old Release
+      - name: Delete Last Release
         uses: larryjoelane/delete-release-action@v1.0.24
         with:
           release-name: LATEST

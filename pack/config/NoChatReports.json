@@ -1,0 +1,13 @@
+{
+  "demandOnClient": true,
+  "demandOnServer": true,
+  "enableDebugLog": false,
+  "convertToGameMessage": false,
+  "showServerSafety": true,
+  "suppressVanillaSecurityNotices": true,
+  "alwaysHideReportButton": true,
+  "versionEasterEgg": false,
+  "disableTelemetry": true,
+  "showReloadButton": false,
+  "whitelistedServers": []
+}

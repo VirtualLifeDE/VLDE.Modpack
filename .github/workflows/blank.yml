@@ -13,19 +13,19 @@ jobs:
     steps:
       - uses: actions/checkout@master
       
-      - name: Remove Old Release
-        uses: dev-drprasad/delete-tag-and-release@v0.2.0
-        with:
-          tag_name: LATEST
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
       - name: ZIP Data
         uses: TheDoctor0/zip-release@0.7.1
         with:
           type: 'zip'
           path: 'pack/'
           filename: 'pack.zip'
+          
+      - name: Delete old Release
+        uses: larryjoelane/delete-release-action@v1.0.24
+        with:
+          release-name: LATEST
+          token: ${{ secrets.GITHUB_TOKEN }}
+        
              
       - name: Create Release
         id: create_release
@@ -34,7 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: LATEST
-          release_name: RELEASE
+          release_name: LATEST
           draft: false
           prerelease: false
           

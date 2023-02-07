@@ -19,12 +19,7 @@ jobs:
           path: 'pack/'
           filename: 'pack.zip'
              
-      - env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        name: Publish Release
-        uses: ridedott/release-me-action@master
+      - name: Publish Release
+        uses: softprops/action-gh-release@v1
         with:
-          disable-changelog: true
-          release-branches: '["master"]'
-          release-assets: |
-            pack.zip
+          files: pack.zip

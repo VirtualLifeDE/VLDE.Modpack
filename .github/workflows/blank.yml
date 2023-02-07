@@ -13,6 +13,12 @@ jobs:
     steps:
       - uses: actions/checkout@master
       
+      - uses: dev-drprasad/delete-tag-and-release@v0.2.0
+        with:
+          tag_name: LATEST
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
       - name: ZIP Data
         uses: TheDoctor0/zip-release@0.7.1
         with:

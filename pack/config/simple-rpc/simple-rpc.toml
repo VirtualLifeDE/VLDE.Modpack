@@ -22,7 +22,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2023"
+	largeImageText = "VirtualConnect 2024"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["vlde"]
 	#The text that gets displayed when the small image is hovered
@@ -40,7 +40,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2023"
+	largeImageText = "VirtualConnect 2024"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -58,7 +58,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2023"
+	largeImageText = "VirtualConnect 2024"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -76,7 +76,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2023"
+	largeImageText = "VirtualConnect 2024"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -94,7 +94,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2023"
+	largeImageText = "VirtualConnect 2024"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -112,7 +112,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2023"
+	largeImageText = "VirtualConnect 2024"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -124,13 +124,13 @@
 	#Enable/Disable the Multi Player Event
 	enabled = false
 	#The first line of text under the app name
-	description = "VirtualConnect 2023"
+	description = "VirtualConnect 2024"
 	#The second line of text under the app name
-	state = "%player% spielt mit %players% anderen Spielern auf dem VirtualConnect 2023 Server. "
+	state = "%player% spielt mit %players% anderen Spielern auf dem VirtualConnect 2024 Server. "
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2023"
+	largeImageText = "VirtualConnect 2024"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -156,7 +156,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2023"
+	largeImageText = "VirtualConnect 2024"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -172,7 +172,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1", "vc2"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2023"
+	largeImageText = "VirtualConnect 2024"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["vlde"]
 	#The text that gets displayed when the small image is hovered
@@ -180,7 +180,7 @@
 	#The buttons to display on Discord 
 
 	[[generic.buttons]]
-		label = "VirtualConnect 2023"
+		label = "VirtualConnect 2024"
 		url = "https://discord.gg/aYz8ThEwA9"
 
 	[[generic.buttons]]

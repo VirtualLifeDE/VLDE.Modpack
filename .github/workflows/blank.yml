@@ -19,7 +19,7 @@ jobs:
         with:
           type: 'zip'
           directory: 'pack/'
-          # path: 'pack/'
+          path: '.'
           filename: '../pack.zip'
           
       - name: Delete Last Release

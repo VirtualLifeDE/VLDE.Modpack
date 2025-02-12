@@ -22,12 +22,12 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2024"
+	largeImageText = "VirtualConnect 2026"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["vlde"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "VirtualLifeDE"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
 [main_menu]
@@ -40,12 +40,12 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2024"
+	largeImageText = "VirtualConnect 2026"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
 [server_list]
@@ -58,12 +58,12 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2024"
+	largeImageText = "VirtualConnect 2026"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
 [realms_list]
@@ -76,12 +76,12 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2024"
+	largeImageText = "VirtualConnect 2026"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
 [join_game]
@@ -94,12 +94,12 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2024"
+	largeImageText = "VirtualConnect 2026"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
 [single_player]
@@ -112,30 +112,30 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2024"
+	largeImageText = "VirtualConnect 2026"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
 [multi_player]
 	#Enable/Disable the Multi Player Event
 	enabled = false
 	#The first line of text under the app name
-	description = "VirtualConnect 2024"
+	description = "VirtualConnect 2026"
 	#The second line of text under the app name
-	state = "%player% spielt mit %players% anderen Spielern auf dem VirtualConnect 2024 Server. "
+	state = "%player% spielt mit %players% anderen Spielern auf dem VirtualConnect 2026 Server. "
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2024"
+	largeImageText = "VirtualConnect 2026"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "VirtualLifeDE"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 
 	[[multi_player.buttons]]
 		label = ""
@@ -156,12 +156,12 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2024"
+	largeImageText = "VirtualConnect 2026"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%realmdescription%"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 	buttons = []
 
 [generic]
@@ -172,15 +172,15 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["vc1", "vc2"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "VirtualConnect 2024"
+	largeImageText = "VirtualConnect 2026"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["vlde"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "VirtualLifeDE"
-	#The buttons to display on Discord 
+	#The buttons to display on Discord
 
 	[[generic.buttons]]
-		label = "VirtualConnect 2024"
+		label = "VirtualConnect 2026"
 		url = "https://discord.gg/aYz8ThEwA9"
 
 	[[generic.buttons]]

@@ -19,8 +19,8 @@ jobs:
         with:
           type: 'zip'
           directory: 'pack/'
-          path: 'pack/'
-          filename: 'pack.zip'
+          # path: 'pack/'
+          filename: '../pack.zip'
           
       - name: Delete Last Release
         uses: larryjoelane/delete-release-action@v1.0.24

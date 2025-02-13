@@ -7,28 +7,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@master
-      
-      - name: ZIP Data
-        uses: TheDoctor0/zip-release@0.7.5
-        with:
-          type: 'zip'
-          directory: 'pack/'
-          path: '.'
-          filename: 'pack.zip'
-          
       - name: Delete Last Release
         uses: larryjoelane/delete-release-action@v1.0.24
         with:
           release-name: LATEST
           token: ${{ secrets.GITHUB_TOKEN }}
-        
-             
+          
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -37,9 +25,20 @@ jobs:
         with:
           tag_name: LATEST
           release_name: LATEST
-          draft: false
+          draft: true
           prerelease: false
-          
+    
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: ZIP Data
+        uses: TheDoctor0/zip-release@0.7.5
+        with:
+          type: 'zip'
+          directory: 'pack/'
+          path: '.'
+          filename: 'pack.zip'
+
       - name: Upload Release Asset
         id: upload-release-asset 
         uses: actions/upload-release-asset@v1
@@ -50,3 +49,10 @@ jobs:
           asset_path: ./pack/pack.zip
           asset_name: pack.zip
           asset_content_type: application/zip
+
+      - name: Publish Release
+        uses: eregon/publish-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_id: ${{ steps.create_release.outputs.id }}
